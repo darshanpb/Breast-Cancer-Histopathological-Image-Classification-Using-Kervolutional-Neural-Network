@@ -67,8 +67,7 @@ class Model:
 
 if __name__ == '__main__':
     # obtain path to data and store in list
-    refined_data_path = 'dataset/400x'  # for training, testing, validataion data
-    ''' Replace the dataset folder for diff magnification factors '''
+    refined_data_path = 'data/400x'  # for training, testing, validataion data
     train_path = os.path.sep.join([refined_data_path, 'train'])
     test_path = os.path.sep.join([refined_data_path, 'test'])
     val_path = os.path.sep.join([refined_data_path, 'val'])
@@ -192,11 +191,11 @@ if __name__ == '__main__':
     plt.xlabel('Epoch')
     plt.ylabel('Loss/Accuracy')
     plt.legend(loc='upper right')
-    plt.savefig('plots.png')
+    #plt.savefig('plot400demox.png')
 
-    ''' model_json = model.to_json()
-    with open('model400x.json', 'w') as json_file:
-        json_file.write(model_json)
+    #model_json = model.to_json()
+    #with open('model400x.json', 'w') as json_file:
+        #json_file.write(model_json)
 
-    model.save_weights('model400x.h5')
-    print('model json saved. model weights saved') #uncomment for saving models in h5 and json format '''
+    #model.save_weights('model400x.h5')
+    print('model json saved. model weights saved')
