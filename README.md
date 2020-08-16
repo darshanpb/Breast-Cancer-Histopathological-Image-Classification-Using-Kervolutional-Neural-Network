@@ -1,5 +1,6 @@
 # Breast-Cancer-Histopathological-Image-Classification-Using-Kervolutional-Neural-Network  
-- Dataset [link](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/)  
+- Dataset [link](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/)    
+- Paper [sersc](http://sersc.org/journals/index.php/IJAST/article/view/27078/14806)  
 > To Do
 - [ ] Script for dataset Re-organizing  
 ### Pre-requisists  
