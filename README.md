@@ -1,4 +1,7 @@
-# Breast-Cancer-Histopathological-Image-Classification-Using-Kervolutional-Neural-Network
+# Breast-Cancer-Histopathological-Image-Classification-Using-Kervolutional-Neural-Network  
+- Dataset [link](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/)  
+> To Do
+- [ ] Script for dataset Re-organizing  
 ### Pre-requisists  
 - [x] Anaconda  
 - [x] Python 3+   
